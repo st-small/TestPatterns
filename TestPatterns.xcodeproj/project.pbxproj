@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		52E7A9251DCCBFA6004EA437 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A9241DCCBFA6004EA437 /* main.m */; };
 		52E7A9281DCCBFA6004EA437 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A9271DCCBFA6004EA437 /* AppDelegate.m */; };
-		52E7A92B1DCCBFA6004EA437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A92A1DCCBFA6004EA437 /* ViewController.m */; };
 		52E7A92E1DCCBFA6004EA437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E7A92C1DCCBFA6004EA437 /* Main.storyboard */; };
 		52E7A9301DCCBFA6004EA437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E7A92F1DCCBFA6004EA437 /* Assets.xcassets */; };
 		52E7A9331DCCBFA6004EA437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E7A9311DCCBFA6004EA437 /* LaunchScreen.storyboard */; };
 		52E7A93E1DCCBFA7004EA437 /* TestPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A93D1DCCBFA7004EA437 /* TestPatternsTests.m */; };
 		52E7A9491DCCBFA7004EA437 /* TestPatternsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A9481DCCBFA7004EA437 /* TestPatternsUITests.m */; };
+		52E7A95B1DCCC082004EA437 /* SiSHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A95A1DCCC082004EA437 /* SiSHTTPClient.m */; };
+		52E7A9661DCCC173004EA437 /* SiSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A9651DCCC173004EA437 /* SiSAlbum.m */; };
+		52E7A96D1DCCCB1C004EA437 /* SiSAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A96C1DCCCB1C004EA437 /* SiSAlbumView.m */; };
+		52E7A9711DCCCFAD004EA437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A9701DCCCFAD004EA437 /* ViewController.m */; };
+		52E7A9751DCCE098004EA437 /* SiSLibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A9741DCCE098004EA437 /* SiSLibraryAPI.m */; };
+		52E7A9781DCCE1E4004EA437 /* SiSPersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A9771DCCE1E4004EA437 /* SiSPersistencyManager.m */; };
+		52E7A97B1DCCEB49004EA437 /* SiSAlbum+SiSTableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A97A1DCCEB49004EA437 /* SiSAlbum+SiSTableRepresentation.m */; };
+		52E7A97E1DCCF770004EA437 /* SiSHorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7A97D1DCCF770004EA437 /* SiSHorizontalScroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		52E7A9241DCCBFA6004EA437 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52E7A9261DCCBFA6004EA437 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52E7A9271DCCBFA6004EA437 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52E7A9291DCCBFA6004EA437 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52E7A92A1DCCBFA6004EA437 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52E7A92D1DCCBFA6004EA437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52E7A92F1DCCBFA6004EA437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E7A9321DCCBFA6004EA437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,25 @@
 		52E7A9441DCCBFA7004EA437 /* TestPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E7A9481DCCBFA7004EA437 /* TestPatternsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPatternsUITests.m; sourceTree = "<group>"; };
 		52E7A94A1DCCBFA7004EA437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E7A9591DCCC082004EA437 /* SiSHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSHTTPClient.h; sourceTree = "<group>"; };
+		52E7A95A1DCCC082004EA437 /* SiSHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSHTTPClient.m; sourceTree = "<group>"; };
+		52E7A95E1DCCC0FC004EA437 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52E7A9601DCCC114004EA437 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52E7A9621DCCC11E004EA437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52E7A9641DCCC173004EA437 /* SiSAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSAlbum.h; sourceTree = "<group>"; };
+		52E7A9651DCCC173004EA437 /* SiSAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSAlbum.m; sourceTree = "<group>"; };
+		52E7A96B1DCCCB1C004EA437 /* SiSAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSAlbumView.h; sourceTree = "<group>"; };
+		52E7A96C1DCCCB1C004EA437 /* SiSAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSAlbumView.m; sourceTree = "<group>"; };
+		52E7A96F1DCCCFAD004EA437 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52E7A9701DCCCFAD004EA437 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52E7A9731DCCE098004EA437 /* SiSLibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSLibraryAPI.h; sourceTree = "<group>"; };
+		52E7A9741DCCE098004EA437 /* SiSLibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSLibraryAPI.m; sourceTree = "<group>"; };
+		52E7A9761DCCE1E4004EA437 /* SiSPersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSPersistencyManager.h; sourceTree = "<group>"; };
+		52E7A9771DCCE1E4004EA437 /* SiSPersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSPersistencyManager.m; sourceTree = "<group>"; };
+		52E7A9791DCCEB49004EA437 /* SiSAlbum+SiSTableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SiSAlbum+SiSTableRepresentation.h"; sourceTree = "<group>"; };
+		52E7A97A1DCCEB49004EA437 /* SiSAlbum+SiSTableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SiSAlbum+SiSTableRepresentation.m"; sourceTree = "<group>"; };
+		52E7A97C1DCCF770004EA437 /* SiSHorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSHorizontalScroller.h; sourceTree = "<group>"; };
+		52E7A97D1DCCF770004EA437 /* SiSHorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSHorizontalScroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +109,7 @@
 				52E7A93C1DCCBFA7004EA437 /* TestPatternsTests */,
 				52E7A9471DCCBFA7004EA437 /* TestPatternsUITests */,
 				52E7A9211DCCBFA6004EA437 /* Products */,
+				52E7A95D1DCCC0FC004EA437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +126,18 @@
 		52E7A9221DCCBFA6004EA437 /* TestPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				52E7A9671DCCC187004EA437 /* Model */,
+				52E7A96E1DCCCF1D004EA437 /* View */,
+				52E7A9721DCCCFCD004EA437 /* Controller */,
+				52E7A95C1DCCC086004EA437 /* API */,
 				52E7A9261DCCBFA6004EA437 /* AppDelegate.h */,
 				52E7A9271DCCBFA6004EA437 /* AppDelegate.m */,
-				52E7A9291DCCBFA6004EA437 /* ViewController.h */,
-				52E7A92A1DCCBFA6004EA437 /* ViewController.m */,
+				52E7A9731DCCE098004EA437 /* SiSLibraryAPI.h */,
+				52E7A9741DCCE098004EA437 /* SiSLibraryAPI.m */,
+				52E7A9761DCCE1E4004EA437 /* SiSPersistencyManager.h */,
+				52E7A9771DCCE1E4004EA437 /* SiSPersistencyManager.m */,
+				52E7A9791DCCEB49004EA437 /* SiSAlbum+SiSTableRepresentation.h */,
+				52E7A97A1DCCEB49004EA437 /* SiSAlbum+SiSTableRepresentation.m */,
 				52E7A92C1DCCBFA6004EA437 /* Main.storyboard */,
 				52E7A92F1DCCBFA6004EA437 /* Assets.xcassets */,
 				52E7A9311DCCBFA6004EA437 /* LaunchScreen.storyboard */,
@@ -138,6 +171,54 @@
 				52E7A94A1DCCBFA7004EA437 /* Info.plist */,
 			);
 			path = TestPatternsUITests;
+			sourceTree = "<group>";
+		};
+		52E7A95C1DCCC086004EA437 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				52E7A9591DCCC082004EA437 /* SiSHTTPClient.h */,
+				52E7A95A1DCCC082004EA437 /* SiSHTTPClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		52E7A95D1DCCC0FC004EA437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52E7A9621DCCC11E004EA437 /* Foundation.framework */,
+				52E7A9601DCCC114004EA437 /* CoreGraphics.framework */,
+				52E7A95E1DCCC0FC004EA437 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52E7A9671DCCC187004EA437 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52E7A9641DCCC173004EA437 /* SiSAlbum.h */,
+				52E7A9651DCCC173004EA437 /* SiSAlbum.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52E7A96E1DCCCF1D004EA437 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52E7A96B1DCCCB1C004EA437 /* SiSAlbumView.h */,
+				52E7A96C1DCCCB1C004EA437 /* SiSAlbumView.m */,
+				52E7A97C1DCCF770004EA437 /* SiSHorizontalScroller.h */,
+				52E7A97D1DCCF770004EA437 /* SiSHorizontalScroller.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52E7A9721DCCCFCD004EA437 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52E7A96F1DCCCFAD004EA437 /* ViewController.h */,
+				52E7A9701DCCCFAD004EA437 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E7A92B1DCCBFA6004EA437 /* ViewController.m in Sources */,
+				52E7A9751DCCE098004EA437 /* SiSLibraryAPI.m in Sources */,
+				52E7A9711DCCCFAD004EA437 /* ViewController.m in Sources */,
+				52E7A95B1DCCC082004EA437 /* SiSHTTPClient.m in Sources */,
+				52E7A97E1DCCF770004EA437 /* SiSHorizontalScroller.m in Sources */,
+				52E7A96D1DCCCB1C004EA437 /* SiSAlbumView.m in Sources */,
+				52E7A97B1DCCEB49004EA437 /* SiSAlbum+SiSTableRepresentation.m in Sources */,
 				52E7A9281DCCBFA6004EA437 /* AppDelegate.m in Sources */,
+				52E7A9781DCCE1E4004EA437 /* SiSPersistencyManager.m in Sources */,
 				52E7A9251DCCBFA6004EA437 /* main.m in Sources */,
+				52E7A9661DCCC173004EA437 /* SiSAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +594,7 @@
 				52E7A94F1DCCBFA7004EA437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E7A9501DCCBFA7004EA437 /* Build configuration list for PBXNativeTarget "TestPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +603,7 @@
 				52E7A9521DCCBFA7004EA437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E7A9531DCCBFA7004EA437 /* Build configuration list for PBXNativeTarget "TestPatternsUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +612,7 @@
 				52E7A9551DCCBFA7004EA437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
